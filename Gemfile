@@ -52,6 +52,12 @@ group :development, :test do
 end
 
 group :development do
+  gem "capistrano", "~> 3.19.0"
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger' # o capistrano-puma si usas Puma
+  gem 'capistrano-rbenv'     # o capistrano-rvm si usas RVM
+  gem 'capistrano-bundler'
+  gem 'capistrano-postgresql'
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
