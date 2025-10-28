@@ -1,7 +1,7 @@
 lock "~> 3.19.0"
 
 set :application, "island"
-set :repo_url, "git@github.com:tuusuario/island.git"
+set :repo_url, "git@github.com:teenagelobotomist01-tech/island.git"
 
 set :deploy_to, "/var/www/island"
 set :branch, "main"
