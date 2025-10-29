@@ -1,0 +1,19 @@
+current directory: /var/www/island/releases/20251028161740/vendor/bundle/ruby/3.2.0/gems/erb-5.1.1/ext/erb/escape
+/home/deploy/.local/share/mise/installs/ruby/3.2.9/bin/ruby extconf.rb
+checking for rb_ext_ractor_safe() in ruby.h... yes
+creating Makefile
+
+current directory: /var/www/island/releases/20251028161740/vendor/bundle/ruby/3.2.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251028-67255-dugxza sitelibdir\=./.gem.20251028-67255-dugxza clean
+
+current directory: /var/www/island/releases/20251028161740/vendor/bundle/ruby/3.2.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251028-67255-dugxza sitelibdir\=./.gem.20251028-67255-dugxza
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /var/www/island/releases/20251028161740/vendor/bundle/ruby/3.2.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251028-67255-dugxza sitelibdir\=./.gem.20251028-67255-dugxza install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20251028-67255-dugxza/erb
+
+current directory: /var/www/island/releases/20251028161740/vendor/bundle/ruby/3.2.0/gems/erb-5.1.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20251028-67255-dugxza sitelibdir\=./.gem.20251028-67255-dugxza clean
