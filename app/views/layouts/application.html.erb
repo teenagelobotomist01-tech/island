@@ -23,8 +23,18 @@
   </head>
 
   <body>
+<div class="brand">
+  <%= image_tag "logo.png", alt: "Descripción", class: "logo" %>
+  <h1 class="title">Rockstar</h1>
+</div>
+
+
+   <div class="display-content">
     <%= yield %>
-  <footer>
+  </div>
+    
+    
+  <footer class="footer">
   <div>
     Rockstar <%= Time.now.year %>
   </div>
